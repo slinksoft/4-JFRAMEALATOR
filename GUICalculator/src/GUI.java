@@ -30,7 +30,7 @@ public class GUI extends javax.swing.JFrame {
 
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -261,7 +261,7 @@ public class GUI extends javax.swing.JFrame {
         aboutButton.getAccessibleContext().setAccessibleName("");
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void zeroButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_zeroButtonActionPerformed
         /*
@@ -275,7 +275,7 @@ public class GUI extends javax.swing.JFrame {
             inputField.setText("");
         }
         inputField.setText(inputField.getText() + "0");
-    }//GEN-LAST:event_zeroButtonActionPerformed
+    }
 
     private void oneButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_oneButtonActionPerformed
         if (clearTrue == false){
@@ -283,7 +283,7 @@ public class GUI extends javax.swing.JFrame {
             inputField.setText("");
         }
         inputField.setText(inputField.getText() + "1");
-    }//GEN-LAST:event_oneButtonActionPerformed
+    }
 
     private void twoButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twoButtonActionPerformed
         if (clearTrue == false){
@@ -292,7 +292,7 @@ public class GUI extends javax.swing.JFrame {
         }
         
         inputField.setText(inputField.getText() + "2");
-    }//GEN-LAST:event_twoButtonActionPerformed
+    }
 
     private void threeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_threeButtonActionPerformed
         if (clearTrue == false){
@@ -301,7 +301,7 @@ public class GUI extends javax.swing.JFrame {
         }
         
         inputField.setText(inputField.getText() + "3");
-    }//GEN-LAST:event_threeButtonActionPerformed
+    }
 
     private void fourButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fourButtonActionPerformed
         if (clearTrue == false){
@@ -310,7 +310,7 @@ public class GUI extends javax.swing.JFrame {
         }
         
         inputField.setText(inputField.getText() + "4");
-    }//GEN-LAST:event_fourButtonActionPerformed
+    }
 
     private void fiveButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fiveButtonActionPerformed
         if (clearTrue == false){
@@ -319,7 +319,7 @@ public class GUI extends javax.swing.JFrame {
         }
         
         inputField.setText(inputField.getText() + "5");
-    }//GEN-LAST:event_fiveButtonActionPerformed
+    }
 
     private void sixButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sixButtonActionPerformed
         if (clearTrue == false){
@@ -328,7 +328,7 @@ public class GUI extends javax.swing.JFrame {
         }
         
         inputField.setText(inputField.getText() + "6");
-    }//GEN-LAST:event_sixButtonActionPerformed
+    }
 
     private void sevenButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sevenButtonActionPerformed
         if (clearTrue == false){
@@ -337,7 +337,7 @@ public class GUI extends javax.swing.JFrame {
         }
         
         inputField.setText(inputField.getText() + "7");
-    }//GEN-LAST:event_sevenButtonActionPerformed
+    }
 
     private void eightButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eightButtonActionPerformed
         if (clearTrue == false){
@@ -346,7 +346,7 @@ public class GUI extends javax.swing.JFrame {
         }
         
         inputField.setText(inputField.getText() + "8");
-    }//GEN-LAST:event_eightButtonActionPerformed
+    }
 
     private void nineButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nineButtonActionPerformed
         if (clearTrue == false){
@@ -355,7 +355,7 @@ public class GUI extends javax.swing.JFrame {
         }
         
         inputField.setText(inputField.getText() + "9");
-    }//GEN-LAST:event_nineButtonActionPerformed
+    }
 
     private void clearButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonActionPerformed
         clearTrue = false;
@@ -363,7 +363,7 @@ public class GUI extends javax.swing.JFrame {
         inputField.setText("0");
         a = 0;
         b = 0;
-    }//GEN-LAST:event_clearButtonActionPerformed
+    }
 
     private void plusButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_plusButtonActionPerformed
         clearTrue = false;
@@ -373,7 +373,7 @@ public class GUI extends javax.swing.JFrame {
         }
             function = 0; // ID for function to use (reference for equalButton). 0 = + ; 1 = - ; 2 = * ; 3 = /
         
-    }//GEN-LAST:event_plusButtonActionPerformed
+    }
 
     private void minusButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_minusButtonActionPerformed
          clearTrue = false;
@@ -382,7 +382,7 @@ public class GUI extends javax.swing.JFrame {
         firstInputDone = true;
         }
             function = 1; // ID for function to use (reference for equalButton). 0 = + ; 1 = - ; 2 = * ; 3 = /
-    }//GEN-LAST:event_minusButtonActionPerformed
+    }
 
     private void multiplyButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_multiplyButtonActionPerformed
          clearTrue = false;
@@ -391,7 +391,7 @@ public class GUI extends javax.swing.JFrame {
         firstInputDone = true;
         }
             function = 2; // ID for function to use (reference for equalButton). 0 = + ; 1 = - ; 2 = * ; 3 = /
-    }//GEN-LAST:event_multiplyButtonActionPerformed
+    }
 
     private void divideButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_divideButtonActionPerformed
          clearTrue = false;
@@ -400,7 +400,7 @@ public class GUI extends javax.swing.JFrame {
         firstInputDone = true;
         }
             function = 3; // ID for function to use (reference for equalButton). 0 = + ; 1 = - ; 2 = * ; 3 = /     
-    }//GEN-LAST:event_divideButtonActionPerformed
+    }
 
     private void equalButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_equalButtonActionPerformed
             // prevents user error if user enters their first input but enters the equal button right away, rather not enter a function/operation to use
@@ -431,7 +431,7 @@ public class GUI extends javax.swing.JFrame {
             inputField.setText(String.valueOf(c)); //displays c, the results to the inputField text var/properties
             a = c; //allows continous calculation if user presses function button again. a is now c and the next input will be stored in b. then it is a + b again.
             firstInputDone = false;
-    }//GEN-LAST:event_equalButtonActionPerformed
+    }
 
     private void pointButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pointButtonActionPerformed
         if (clearTrue == false){
@@ -440,13 +440,13 @@ public class GUI extends javax.swing.JFrame {
         }
         
         inputField.setText(inputField.getText() + ".");
-    }//GEN-LAST:event_pointButtonActionPerformed
+    }
 
     private void aboutButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aboutButtonActionPerformed
         // calls in credits message from function class
         functions msg = new functions();
         msg.openMessageBox();
-    }//GEN-LAST:event_aboutButtonActionPerformed
+    }
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         // sets jframe properties: size, starting position, and BG color
@@ -454,7 +454,7 @@ public class GUI extends javax.swing.JFrame {
         this.getContentPane().setBackground(Color.black);
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
         this.setLocation(dim.width/2-this.getSize().width/2, dim.height/2-this.getSize().height/2);
-    }//GEN-LAST:event_formWindowOpened
+    }
 
     public static void main(String args[]) {
         
@@ -467,7 +467,7 @@ public class GUI extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration
     private javax.swing.JButton aboutButton;
     private javax.swing.JButton clearButton;
     private javax.swing.JButton divideButton;
